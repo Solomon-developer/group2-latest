@@ -1,0 +1,142 @@
+.navimage{
+    background-image: url(./img/kids.jpg);
+    height: 90vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button{
+    background-color: coral;
+    border-radius:3em;
+}
+.header-text{
+    height: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#a{
+  display: inline;
+  background-color: coral;
+  border-radius: 3em;
+  font-weight: bold;
+  padding: 0.7em 0.6em 0.7em 0.6em;
+  color: white;
+  outline: none; /*buttons come with default outline and border*/
+}
+#a:hover{
+  background-color: black;
+  color: aqua;
+  transition: all 1s;
+}
+.second-image{
+background-image: url(./img/city.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 40vh;
+width: 100vw;
+}
+#hr{
+  border: 2px solid coral;
+  margin-left: 30em;
+  margin-right: 30em;
+  border-radius: 3em;
+}
+.demo1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.demo1, .demo2{
+  height: 400px;
+}
+#icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: xx-large;
+  color: coral;
+  margin-top: 1em;
+}
+.iconss{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: xx-large;
+  color: coral;
+  margin-top: 1em;
+}
+.boxes p{
+text-align: center;
+}
+
+.boxes h4{
+  text-align: center;
+}
+.box1, .box2, .box3{
+  height: 300px;
+  margin: 1em;
+  box-shadow: 0px 0px 3px 1px;
+  border-radius: 0.2em;
+}
+.box4, .box5, .box6{
+  height: 300px;
+  margin: 1em;
+  box-shadow: 0px 0px 3px 1px;
+  border-radius: 0.2em;
+}
+.boxa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}  
+.boxes .a:hover>a .icons{
+  color: white !important;
+}
+#info-action .card:hover >a{
+color: white;}
+.boxb{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.boxes .a:hover{
+  background:rgb(238, 92, 39);
+  transition: all 1s;
+}
+.boxes .a:hover p{
+  color: white;
+}
+.boxes .a:hover h4{
+  color: white;
+}
+.boxes .a:hover #icons{
+  color: white;
+}
+.foot-img{
+  background-image: url(img/topimg.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#b{
+  border-radius: 3em;
+  background-color: coral;
+  display: block;
+  margin: auto; 
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+}
+#b:hover{
+  background-color: black;
+  transition: all 1s;
+  text-decoration: none;
+}
+#rm:hover{
+  color: yellow;
+}
